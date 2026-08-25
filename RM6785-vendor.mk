@@ -285,7 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RM6785/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/realme/RM6785/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
     vendor/realme/RM6785/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
-    vendor/realme/RM6785/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/realme/RM6785/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
     vendor/realme/RM6785/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt \
     vendor/realme/RM6785/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt \
@@ -356,7 +355,6 @@ PRODUCT_PACKAGES += \
     libTEECommon \
     libaal_mtk \
     libaalservice \
-    libaedv \
     libbwc \
     libcapctrl \
     libcares_naptr \
@@ -384,7 +382,6 @@ PRODUCT_PACKAGES += \
     libipsec_ims_shr \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libladder \
     libmtcloader \
     libmtk_drvb \
     libmtkares \
@@ -527,7 +524,6 @@ PRODUCT_PACKAGES += \
     libMcGatekeeper \
     libSoftGatekeeper \
     sensors.mt6785 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.isphal@1.0-impl \
@@ -1191,8 +1187,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.orms@1.0 \
     vendor.oplus.hardware.radio@1.0 \
     ImsService \
-    mediatek-common \
-    mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
     mediatek-ims-extension-plugin \
@@ -1202,7 +1196,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     android.hardware.gpu@1.0-service.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu.xml \
-    manifest.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     oplus_appradio_device_manifest.xml \
     oplus_radio_device_manifest.xml \
@@ -1253,7 +1246,6 @@ PRODUCT_PACKAGES += \
     volte_ua \
     vpud \
     wfca \
-    wlan_assistant \
     wmt_launcher \
     wmt_loader \
     xcap \
