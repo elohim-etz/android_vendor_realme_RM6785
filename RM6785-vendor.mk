@@ -477,7 +477,7 @@ PRODUCT_PACKAGES += \
     libktvreverb \
     libktvsoundtouch \
     libktvvolume \
-    libmnl \
+    libmnl_mtk \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
     libmsbc_mtk \
