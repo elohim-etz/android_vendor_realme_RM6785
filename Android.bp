@@ -4333,11 +4333,11 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libMtkOmxVdecEx.so",
             ],
             shared_libs: [
-                "libui_shim",
+                "libmtk_hw_shim",
                 "libutils",
                 "libcutils",
                 "liblog",
-                "libui",
+                "libui-v32",
                 "libion",
                 "libged",
                 "libion_mtk",
@@ -4360,6 +4360,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
