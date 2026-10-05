@@ -25247,68 +25247,76 @@ cc_prebuilt_library_shared {
 android_app_import {
     name: "ImsService",
     owner: "realme",
-    apk: "proprietary/system/priv-app/ImsService/ImsService.apk",
+    apk: "proprietary/system_ext/priv-app/ImsService/ImsService.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
     privileged: true,
+    system_ext_specific: true,
 }
 
 dex_import {
     name: "mediatek-ims-base",
     owner: "realme",
     jars: [
-        "proprietary/system/framework/mediatek-ims-base.jar",
+        "proprietary/system_ext/framework/mediatek-ims-base.jar",
     ],
+    system_ext_specific: true,
 }
 
 dex_import {
     name: "mediatek-ims-common",
     owner: "realme",
     jars: [
-        "proprietary/system/framework/mediatek-ims-common.jar",
+        "proprietary/system_ext/framework/mediatek-ims-common.jar",
     ],
+    system_ext_specific: true,
 }
 
 dex_import {
     name: "mediatek-ims-extension-plugin",
     owner: "realme",
     jars: [
-        "proprietary/system/framework/mediatek-ims-extension-plugin.jar",
+        "proprietary/system_ext/framework/mediatek-ims-extension-plugin.jar",
     ],
+    system_ext_specific: true,
 }
 
 dex_import {
     name: "mediatek-ims-legacy",
     owner: "realme",
     jars: [
-        "proprietary/system/framework/mediatek-ims-legacy.jar",
+        "proprietary/system_ext/framework/mediatek-ims-legacy.jar",
     ],
+    system_ext_specific: true,
 }
 
 dex_import {
     name: "mediatek-telecom-common",
     owner: "realme",
     jars: [
-        "proprietary/system/framework/mediatek-telecom-common.jar",
+        "proprietary/system_ext/framework/mediatek-telecom-common.jar",
     ],
+    system_ext_specific: true,
 }
 
 dex_import {
     name: "mediatek-telephony-base",
     owner: "realme",
     jars: [
-        "proprietary/system/framework/mediatek-telephony-base.jar",
+        "proprietary/system_ext/framework/mediatek-telephony-base.jar",
     ],
+    system_ext_specific: true,
 }
 
 dex_import {
     name: "mediatek-telephony-common",
     owner: "realme",
     jars: [
-        "proprietary/system/framework/mediatek-telephony-common.jar",
+        "proprietary/system_ext/framework/mediatek-telephony-common.jar",
     ],
+    system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
