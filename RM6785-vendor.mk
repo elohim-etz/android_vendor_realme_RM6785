@@ -1184,10 +1184,12 @@ PRODUCT_PACKAGES += \
     libormshalclient \
     libpnscr2 \
     sensors.virtual \
+    vendor.oplus.hardware.appradio@1.0 \
     vendor.oplus.hardware.biometrics.fingerprint@2.1_odm \
     vendor.oplus.hardware.biometrics.fingerprintservice@1.0 \
     vendor.oplus.hardware.commondcs@1.0 \
     vendor.oplus.hardware.orms@1.0 \
+    vendor.oplus.hardware.radio@1.0 \
     ImsService \
     MtkGbaService \
     MtkTelephonyAssist \
@@ -1198,6 +1200,8 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_media_c2_V1_2_default.xml \
+    oplus_appradio_device_manifest.xml \
+    oplus_radio_device_manifest.xml \
     autobt \
     bip \
     ccci_fsd \
