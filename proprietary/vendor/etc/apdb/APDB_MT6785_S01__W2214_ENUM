@@ -7,10 +7,10 @@ AP_CFG_CUSTOM_FILE_SMARTPA_CALIB_LID                                  77
 AP_CFG_FILE_EXT_MDTYPE_LID                                            20
 AP_CFG_FILE_MDTYPE_LID                                                19
 AP_CFG_FILE_VER_INFO_LID                                              0
-AP_CFG_OPPO_CARRIER_VER_LID                                           81
-AP_CFG_OPPO_ENG_RESULT_LID                                            79
-AP_CFG_OPPO_PRODUCT_INFO_LID                                          82
-AP_CFG_OPPO_SERIAL_NUM_LID                                            80
+AP_CFG_OPLUS_CARRIER_VER_LID                                          81
+AP_CFG_OPLUS_ENG_RESULT_LID                                           79
+AP_CFG_OPLUS_PRODUCT_INFO_LID                                         82
+AP_CFG_OPLUS_SERIAL_NUM_LID                                           80
 AP_CFG_RDCL_BWCS_LID                                                  11
 AP_CFG_RDCL_CAMERA_3A_LID                                             4
 AP_CFG_RDCL_CAMERA_AF_LID                                             49
