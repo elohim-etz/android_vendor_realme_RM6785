@@ -38,6 +38,8 @@
         </path>
        <!--speaker output-->
         <path name="speaker_output" value="turnon">
+            <kctl name="Lineout_PGAL_GAIN" value="-1Db" />
+            <kctl name="Lineout_PGAR_GAIN" value="-1Db" />
             <kctl name="DAC In Mux" value="Normal Path" />
             <kctl name="LOL Mux" value="Playback" />
         </path>
@@ -46,6 +48,8 @@
         </path>
         <!--headhpone_speaker output-->
         <path name="headphoneSpeaker_output" value="turnon">
+            <kctl name="Lineout_PGAL_GAIN" value="-1Db" />
+            <kctl name="Lineout_PGAR_GAIN" value="-1Db" />
             <kctl name="DAC In Mux" value="Normal Path" />
             <kctl name="HPL Mux" value="Audio Playback" />
             <kctl name="HPR Mux" value="Audio Playback" />
