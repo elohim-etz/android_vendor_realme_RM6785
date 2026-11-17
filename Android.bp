@@ -27115,6 +27115,7 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "libutils-v32",
+                "libshim_ril",
                 "libmtkrillog",
                 "libmtkproperty",
                 "libmtkcutils",
