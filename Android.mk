@@ -11,7 +11,6 @@ $(call add-radio-file-sha1-checked,radio/cam_vpu1.img,8e4a8148966803847444f93c4d
 $(call add-radio-file-sha1-checked,radio/cam_vpu2.img,8dbf27f5abc39a0bf36d423ea762907c94c5cec0)
 $(call add-radio-file-sha1-checked,radio/cam_vpu3.img,46a4fdb337978f1ef1dc5ec2a5f4a3715bd6b902)
 $(call add-radio-file-sha1-checked,radio/cdt_engineering.img,13f5f33df779408b04cdfb3d78dd1ebbd3afb7b4)
-$(call add-radio-file-sha1-checked,radio/dtbo.img,7aee14d09c7543a44e5b0c736860d4ce1dc8fb52)
 $(call add-radio-file-sha1-checked,radio/gz.img,9442ebf9fc9b99fa00381d494c5de9dd80c36c67)
 $(call add-radio-file-sha1-checked,radio/lk.img,61de5d94b0140561269e05f5c1c06e3e0a001f06)
 $(call add-radio-file-sha1-checked,radio/logo.bin,6be4852676ad0b11621a802d3fdc71dcb12c6402)
